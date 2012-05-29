@@ -1,0 +1,28 @@
+{
+  "author": "Brian Link <cpsubrian@gmail.com>",
+  "name": "mgit",
+  "description": "Multi-Git. Command-line tool for working with directories of git repositories.",
+  "version": "0.0.1",
+  "keywords": ["git"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpsubrian/mgit.git"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": {
+    "mgit": "./bin/mgit"
+  },
+  "dependencies": {
+    "gitteh": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.0.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.x"
+  }
+}
