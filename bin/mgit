@@ -1,3 +1,28 @@
 #!/usr/bin/env node
+var colors = require('colors'),
+    mgit = require('../');
 
-console.log('mgit');
+// Output usage if we are missing the operation.
+if (process.argv.length < 3) {
+  console.log('');
+  console.log('Usage:');
+  console.log('  mgit <command> <flags>'.bold);
+  console.log('');
+  console.log('Commands:');
+  console.log('  status'.bold + '  Shows the status of git repos in the CWD');
+  console.log('');
+  console.log('Flags:');
+  console.log('      -v'.bold + '  Verbose.  Show detailed information.');
+  console.log('');
+  return;
+}
+
+// Execute the command if it exists.
+if (mgit.commands[process.argv[2]]) {
+  mgit.commands[process.argv[2]]();
+  return;
+}
+else {
+  console.log('[Error: The command ' + process.argv[2].bold + ' does not exist.]');
+  return;
+}

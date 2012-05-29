@@ -36,3 +36,7 @@ Additions
 ---------
 I would like this to be a useful tool for more than just myself.  Pull-requests
 are welcome for new functionlity.
+
+TODO
+----
+Tests.  Yeah, yeah ... I know.
