@@ -15,6 +15,11 @@ Installation
 $ (sudo) npm install mgit -g
 ```
 
+NOTE: I'm using someone's fork of 'gitteh' becase the official version
+does not compile properly on OSX Lion.  I will be keeping an eye out for
+an update release of gitteh and will change the dependency to that as soon
+as I can (it's being very actively developed atm).
+
 Usage
 -----
 For now mgit's functionality is VERY basic, but I may add more over time.

@@ -16,7 +16,7 @@
     "mgit": "./bin/mgit"
   },
   "dependencies": {
-    "gitteh": "~0.1.0"
+    "gitteh": "git+ssh://git@github.com:davman99/node-gitteh.git"
   },
   "devDependencies": {
     "mocha": "~1.0.3"
