@@ -19,11 +19,11 @@
     "gift": "~0.0.5",
     "optimist": "~0.3.4",
     "colors": "~0.6.0-1",
-    "async": "~0.1.21",
+    "async": "~0.1.22",
     "cli-table": "~0.0.2"
   },
   "devDependencies": {
-    "mocha": "~1.0.3"
+    "mocha": "~1.2.1"
   },
   "optionalDependencies": {},
   "engines": {
