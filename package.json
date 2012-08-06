@@ -2,7 +2,7 @@
   "author": "Brian Link <cpsubrian@gmail.com>",
   "name": "mgit",
   "description": "Multi-Git. Command-line tool for working with directories of git repositories.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "keywords": ["git"],
   "repository": {
     "type": "git",
