@@ -10,9 +10,11 @@ if (process.argv.length < 3) {
   console.log('');
   console.log('Commands:');
   console.log('  status'.bold + '  Shows the status of git repos in the CWD');
+  console.log('  pull'.bold + '    Fetch and rebase each ' + 'clean'.bold + ' repo in the CWD');
   console.log('');
   console.log('Flags:');
   console.log('      -v'.bold + '  Verbose.  Show detailed information.');
+  console.log('      -b'.bold + '  Branch.  Show the currently checked out branch.');
   console.log('');
   return;
 }
