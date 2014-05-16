@@ -55,6 +55,14 @@ $ mgit pull [flags]
 
 ![Verbose pull example](https://raw.github.com/cpsubrian/mgit/master/screenshots/pull-v.png)
 
+### Checkout ###
+Perform a `git checkout BRANCH_NAME` in all git repositories within your current
+working directory.
+
+```
+$ mgit checkout BRANCH_NAME [flags]
+```
+
 Additions
 ---------
 I would like this to be a useful tool for more than just myself.  Pull-requests
